@@ -6,7 +6,7 @@ public class SiakadFor01 {
         int lowest = 100;
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Enter The Grade Of Student " + i + ":");
+            System.out.println("Enter The Grade For Student " + i + ":");
             int grade = input.nextInt();
             if (grade > highest) {
                 highest = grade;
